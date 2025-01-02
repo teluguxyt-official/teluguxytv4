@@ -178,7 +178,6 @@
                 } else if (playType === 'red_green') {
                     document.getElementById('winnerScreen').classList.add('active');
                 } else {
-                    alert('Please select a play server option.');
                     document.getElementById('mainContainer').classList.add('active');
                 }
             }, 500); // Delay to allow transition effect
@@ -191,7 +190,6 @@
                 document.getElementById("resultPlayer").textContent = `Result: ${result}`;
                 previousPlayerText = currentText;
             } else {
-                alert("PLS WAIT FOR NEXT PERIOD");
             }
         }
 
@@ -202,7 +200,6 @@
                 document.getElementById("resultWinner").textContent = `Result: ${result}`;
                 previousWinnerText = currentText;
             } else {
-                alert("PLS WAIT FOR NEXT PERIOD");
             }
         }
     </script>
